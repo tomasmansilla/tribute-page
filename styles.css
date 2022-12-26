@@ -1,0 +1,191 @@
+/* base styles */
+
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+
+  --bg-color: #f9f4ef;
+  --headline-color: #020826;
+  --text-color: #716040;
+  --time-color: #8c7851;
+  --secondary-color: #eaddcf;
+  --media-caption-color: #8c7851;
+  --tertiary-color: #f25042;
+  --border-color: #020826;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: var(--bg-color);
+}
+
+/* header */
+.header {
+  padding: 1.4em 0;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: var(--headline-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0.15em;
+}
+
+.title-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+@media (min-width: 35em) {
+  .header {
+    padding: 1.8em 0;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .title-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .header {
+    padding: 2em 0;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+}
+
+/* media */
+.media {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 3em 1.5em 1.5em;
+  margin: 2em auto 1em;
+}
+
+.media__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  margin: 0 auto;
+}
+
+.media__caption {
+  color: #716040;
+  padding: 0 1em;
+  margin-top: 1.5em;
+}
+
+@media (min-width: 35em) {
+  .media {
+    padding: 4em 4em 1.5em;
+  }
+
+  .media__caption {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  .media {
+    padding: 5em 5em 3em;
+  }
+
+  .media__img {
+    max-width: min(100%, 900px);
+  }
+
+  .media__caption {
+    max-width: 720px;
+    margin: 1em auto 0;
+  }
+}
+
+/* article */
+@media (min-width: 35em) {
+  .tribute-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.tribute-info > * + * {
+  margin: 3em auto;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.list-of-time {
+  padding: 0 4em;
+}
+
+.list-of-time > * + * {
+  margin-top: 0.6em;
+}
+
+.list-of-time > li {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.list-of-time .time {
+  font-weight: 700;
+}
+
+.quote {
+  color: var(--text-color);
+  padding-top: 1em;
+  border-top: 1px solid var(--time-color);
+  margin: 2em 4em;
+  text-align: center;
+}
+
+.quote > p {
+  margin-bottom: 0.5em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
