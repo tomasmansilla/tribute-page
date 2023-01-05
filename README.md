@@ -2,7 +2,7 @@
 
 ![Desktop design](/design/desktop-design.png)
 
-This is a solution to the [tribute page challenge on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page). freeCodeCamp is a community of millions of people around the world who are learning to code together.
+This is a [solution](https://tomasmansilla.github.io/tribute-page/) to the [tribute page challenge on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page). freeCodeCamp is a community of millions of people around the world who are learning to code together.
 
 ## Table of contents
 
