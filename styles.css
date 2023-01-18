@@ -149,8 +149,8 @@ body {
   padding: 0 4em;
 }
 
-.list-of-time > * + * {
-  margin-top: 0.6em;
+.list-of-time * {
+  margin-top: 1.2em;
 }
 
 .list-of-time > li {
