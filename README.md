@@ -30,6 +30,7 @@ Users should be able to:
 - Desktop Design:
   ![desktop-design](/design/desktop-design.png "desktop design")
 - Mobile Design:
+
   ![mobile-design](/design/mobile-design.png "mobile design")
 
 ## My process
